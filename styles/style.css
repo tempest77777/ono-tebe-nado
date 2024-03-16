@@ -1,1 +1,277 @@
-/* место для вашего кода */
+p,
+a {
+  font-size: 18px;
+}
+
+#row {
+  display: block;
+}
+
+.flex {
+  flex: 0 1 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 92px 24px;
+}
+
+.logo img {
+  width: 129.11px;
+  height: 104.65px;
+}
+
+.number p {
+  width: 237px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+}
+.menu li::before {
+  content: " ○ ";
+}
+.this-page::before {
+  content: " " !important;
+}
+.this-page a {
+  text-decoration: none;
+}
+
+#holst {
+  background: url("../images/cover.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 757px;
+}
+
+#holst::before {
+  content: "";
+  display: block;
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: opacity(60%);
+  -webkit-filter: opacity(60%);
+}
+
+.holst-poligon {
+  height: 757px;
+  color: white;
+  position: absolute;
+}
+
+.ono-tebe-nado {
+  margin: 100px auto;
+}
+
+.ono-tebe-nado p {
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 135px;
+  width: 1100px;
+}
+
+.t1 {
+  letter-spacing: 110px;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.t2 {
+  letter-spacing: 100px;
+  text-align: center;
+}
+
+.t3 {
+  letter-spacing: 100px;
+  text-align: right;
+}
+
+.holst-bottom {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  p {
+    word-spacing: 28px;
+    display: inline;
+  }
+
+  button {
+    background: transparent;
+    padding: 11px 32px;
+    border: 1px solid white;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline;
+  }
+}
+
+.lots-row {
+  margin: 150px 0;
+  h3,
+  a {
+    padding: 25px 50px;
+    display: block;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+
+.lots {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#lot {
+  width: 334px;
+  height: 563px;
+  background-size: cover;
+  position: relative;
+}
+
+#lot::before {
+  content: "";
+  display: block;
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: opacity(60%);
+  -webkit-filter: opacity(60%);
+}
+
+.lot-poligon {
+  height: 563px;
+  color: white;
+  position: absolute;
+  padding: 25px;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lot-poligon-tytle {
+  flex: 0 1 auto;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 26.4px;
+  text-decoration: underline;
+}
+
+.lot-poligon-text {
+  flex: 0 1 auto;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lot-1 {
+  background: url("../images/card-lot-01.jpg") no-repeat center;
+}
+
+.lot-2 {
+  background: url("../images/card-lot-02.jpg") no-repeat center;
+}
+
+.lot-3 {
+  background: url("../images/card-lot-03.jpg") no-repeat center;
+}
+.elips {
+  background: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  img {
+    width: 141.54px;
+    height: 112.55px;
+  }
+}
+.about-column {
+  height: 47px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 136px 0 100px 0;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo-column {
+  padding: 35px 47px;
+}
+.about-text {
+}
+.about-description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.about-description:last-of-type {
+  margin-bottom: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 123px;
+  margin-bottom: 88px;
+}
+.footer__social-link {
+  display: flex;
+  width: 48px;
+  height: 48px;
+}
+.footer__social-img {
+  object-fit: contain;
+}
+.footer__social-list {
+  display: flex;
+  justify-content: end;
+  gap: 48px;
+  list-style-type: none;
+}
+.footer__contacts {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+.footer__contacts-link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+.navigation__list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
