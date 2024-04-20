@@ -10,31 +10,31 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
   </head>
   <body>
-    <div id="row">
       <header>
-        <menu clss="flex">
-          <ul type="circle" class="menu">
+        <nav class="flex">
+          <ul class="menu">
             <li class="this-page"><a href="#">главная</a></li>
             <li><a href="#">посмотреть лоты</a></li>
             <li><a href="#">об аукционе</a></li>
           </ul>
-        </menu>
-
+        </nav>
         <div class="logo flex">
-          <img src="images/logo-black.svg" alt="Оно Тебе Надо" />
+          <a href="index.html"
+            ><img src="images/logo-black.svg" alt="Оно Тебе Надо"
+          /></a>
         </div>
-
         <div class="number flex">
           <p>
-            +9 999 555 5555<br />info@sobaka.ge<br />наб. Принсенграхт 263 -<br />
-            265, Амстердам
+            <a href="tel:+99995555555">+9 999 555 5555</a><br />
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+            наб. Принсенграхт 263 - 265, Амстердам
           </p>
         </div>
       </header>
-    </div>
+    </div> 
 
-    <div id="row">
-      <div id="holst">
+    <main>
+      <section id="holst">
         <div class="holst-poligon">
           <div class="ono-tebe-nado">
             <p class="t1">оно</p>
@@ -47,11 +47,10 @@
             <button>Сделать ставку</button>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <div id="row">
-      <div class="lots-row">
+   
+      <section class="lots-row">
         <h3>Лоты</h3>
 
         <div class="lots">
@@ -68,7 +67,7 @@
             </div>
           </div>
 
-          <div id="lot" class="lot-2 flex">
+          <div id="lot2" class="lot-2 flex">
             <div class="lot-poligon">
               <p class="lot-poligon-tytle">
                 Книга, где описан один скучный день из жизни рекламного агента
@@ -85,7 +84,7 @@
             </div>
           </div>
 
-          <div id="lot" class="lot-3 flex">
+          <div id="lot3" class="lot-3 flex">
             <div class="lot-poligon">
               <p class="lot-poligon-tytle">
                 Картина, которую повторит даже 5-летний сын маминой подруги
@@ -103,9 +102,8 @@
 
         <a href="#">посмотреть больше</a>
       </div>
-    </div>
-    <div id="row">
-      <div class="about">
+    </section>
+    <section class="about">
         <div class="logo-column">
           <div class="elips">
             <img src="images/logo-white.svg" alt="" />
@@ -130,7 +128,8 @@
           </p>
         </div>
       </div>
-    </div>
+    </section>
+  </main>
     <footer class="footer">
       <div class="footer__contacts">
         <a href="#" class="footer__contacts-link">+9 999 555 5555</a>
