@@ -3,7 +3,7 @@ a {
   font-size: 18px;
 }
 
-#row {
+.row {
   display: block;
 }
 
@@ -27,11 +27,11 @@ header {
   width: 237px;
 }
 
-.menu li {
+.flex__menu li {
   list-style: none;
   display: inline;
 }
-.menu li::before {
+.flex__menu li::before {
   content: " ○ ";
 }
 .this-page::before {
@@ -41,14 +41,14 @@ header {
   text-decoration: none;
 }
 
-#holst {
+.holst {
   background: url("../images/cover.jpg") no-repeat center;
   background-size: cover;
   position: relative;
   height: 757px;
 }
 
-#holst::before {
+.holst::before {
   content: "";
   display: block;
   background: black;
@@ -74,6 +74,7 @@ header {
   text-transform: uppercase;
   line-height: 135px;
   width: 1100px;
+  font-weight: 700;
 }
 
 .t1 {
@@ -138,14 +139,14 @@ header {
   justify-content: space-around;
 }
 
-#lot {
+.lot {
   width: 334px;
   height: 563px;
   background-size: cover;
   position: relative;
 }
 
-#lot::before {
+.lot::before {
   content: "";
   display: block;
   background: black;
@@ -199,7 +200,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   align-content: center;
 
   img {
@@ -225,8 +225,7 @@ header {
 .logo-column {
   padding: 35px 47px;
 }
-.about-text {
-}
+
 .about-description {
   font-size: 20px;
   font-weight: 400;
