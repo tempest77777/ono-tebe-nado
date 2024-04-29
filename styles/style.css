@@ -138,14 +138,14 @@ header {
   justify-content: space-around;
 }
 
-#lot {
+.lot {
   width: 334px;
   height: 563px;
   background-size: cover;
   position: relative;
 }
 
-#lot::before {
+.lot::before {
   content: "";
   display: block;
   background: black;
