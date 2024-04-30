@@ -66,39 +66,69 @@ header {
 }
 
 .ono-tebe-nado {
+  width: 1100px;
   margin: 100px auto;
+  
 }
 
 .ono-tebe-nado p {
   font-size: 100px;
   text-transform: uppercase;
   line-height: 135px;
-  width: 1100px;
+  font-weight: 700;
 }
 
 .t1 {
-  letter-spacing: 110px;
+  letter-spacing: 0.3em;
   text-align: left;
-  padding-left: 100px;
+  padding-left: 30px;
+  
+}
+
+.t1 span{
+  margin-left: 0.3em;
 }
 
 .t2 {
-  letter-spacing: 100px;
+  letter-spacing: 0.3em;
   text-align: center;
+  padding-right: 150px;
+}
+
+.t2 span{
+  margin-left: 0.3em;
 }
 
 .t3 {
-  letter-spacing: 100px;
+  letter-spacing: 0.3em;
   text-align: right;
 }
 
+.t3 span{
+  margin-right: 0.3em;
+}
+  
+
+.t2 span{
+  margin-left: 0.3em;
+}
+
+.t3 {
+  letter-spacing: 50px;
+  text-align: right;
+}
+.t3 span{
+  margin-right: 0.3em;}
+
 .holst-bottom {
   font-size: 22px;
+  font-weight: 400px;
   text-transform: uppercase;
   padding: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 
   p {
     word-spacing: 28px;
@@ -167,17 +197,21 @@ header {
 }
 
 .lot-poligon-tytle {
+  padding-top: 20px;
   flex: 0 1 auto;
   font-size: 22px;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 26.4px;
   text-decoration: underline;
 }
 
 .lot-poligon-text {
+  width: 254px;
   flex: 0 1 auto;
   font-size: 20px;
   line-height: 24px;
+  padding-bottom: 20px;
 }
 
 .lot-1 {
@@ -215,6 +249,7 @@ header {
   text-align: left;
   text-transform: uppercase;
   margin: 136px 0 100px 0;
+  margin-left: 30px;
 }
 .about {
   display: flex;
@@ -226,6 +261,7 @@ header {
 }
 
 .about-description {
+  width: 690px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -251,6 +287,7 @@ header {
 }
 .footer__social-list {
   display: flex;
+  padding-bottom: 40px;
   justify-content: end;
   gap: 48px;
   list-style-type: none;
@@ -272,4 +309,13 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+}
+.header_left_side{
+  display: flex;
+  
+  align-items:center ;
+  img{
+    margin-left: 50px;
+  }
 }
