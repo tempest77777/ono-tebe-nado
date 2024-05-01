@@ -66,72 +66,88 @@ header {
 }
 
 .ono-tebe-nado {
+  width: 1100px;
   margin: 100px auto;
+  
 }
 
 .ono-tebe-nado p {
   font-size: 100px;
   text-transform: uppercase;
   line-height: 135px;
-  width: 1100px;
+  font-weight: 700;
 }
 
 .t1 {
-  letter-spacing: 110px;
+  letter-spacing: 0.3em;
   text-align: left;
-  padding-left: 100px;
+  padding-left: 30px;
+  
+}
+
+.t1 span {
+  margin-left: 0.3em;
 }
 
 .t2 {
-  letter-spacing: 100px;
+  letter-spacing: 0.3em;
   text-align: center;
+  padding-right: 150px;
+}
+
+.t2 span {
+  margin-left: 0.3em;
 }
 
 .t3 {
-  letter-spacing: 100px;
+  letter-spacing: 0.3em;
   text-align: right;
 }
 
+.t3 span {
+  margin-right: 0.3em;
+}
+  
 .holst-bottom {
   font-size: 22px;
+  font-weight: 400px;
   text-transform: uppercase;
   padding: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
+  
 
-.holst-bottom p {
-  word-spacing: 28px;
-  display: inline;
-}
+  p {
+    word-spacing: 28px;
+    display: inline;
+  }
 
-.holst-bottom button {
-  background: transparent;
-  padding: 11px 32px;
-  border: 1px solid white;
-  color: white;
-  font-size: 22px;
-  text-transform: uppercase;
-  display: inline;
+  button {
+    background: transparent;
+    padding: 11px 32px;
+    border: 1px solid white;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline;
+  }
 }
 
 .lots-row {
   margin: 150px 0;
-}
+  h3,
+  a {
+    padding: 25px 50px;
+    display: block;
+  }
 
-.lots-row h3,
-.lots-row a {
-  padding: 25px 50px;
-  display: block;
-}
-
-.lots-row h3 {
-  font-size: 40px;
-}
-
-.lots-row a {
-  font-size: 20px;
+  h3 {
+    font-size: 40px;
+  }
+  a {
+    font-size: 20px;
+  }
 }
 
 .lots {
@@ -169,17 +185,21 @@ header {
 }
 
 .lot-poligon-tytle {
+  padding-top: 20px;
   flex: 0 1 auto;
   font-size: 22px;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 26.4px;
   text-decoration: underline;
 }
 
 .lot-poligon-text {
+  width: 254px;
   flex: 0 1 auto;
   font-size: 20px;
   line-height: 24px;
+  padding-bottom: 20px;
 }
 
 .lot-1 {
@@ -193,7 +213,6 @@ header {
 .lot-3 {
   background: url("../images/card-lot-03.jpg") no-repeat center;
 }
-
 .elips {
   background: black;
   width: 240px;
@@ -203,44 +222,42 @@ header {
   align-items: center;
   justify-content: center;
   align-content: center;
-}
 
-.elips img {
-  width: 141.54px;
-  height: 112.55px;
+  img {
+    width: 141.54px;
+    height: 112.55px;
+  }
 }
-
 .about-column {
   height: 47px;
+
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
   text-align: left;
   text-transform: uppercase;
   margin: 136px 0 100px 0;
+  margin-left: 30px;
 }
-
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
 .logo-column {
   padding: 35px 47px;
 }
 
 .about-description {
+  width: 690px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 24px;
 }
-
 .about-description:last-of-type {
-  margin-bottom: 0;
+  margin-bottom: none;
 }
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -248,35 +265,30 @@ header {
   margin-top: 123px;
   margin-bottom: 88px;
 }
-
 .footer__social-link {
   display: flex;
   width: 48px;
   height: 48px;
 }
-
 .footer__social-img {
   object-fit: contain;
 }
-
 .footer__social-list {
   display: flex;
+  padding-bottom: 40px;
   justify-content: end;
   gap: 48px;
   list-style-type: none;
 }
-
 .footer__contacts {
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
 }
-
 .footer__contacts-link {
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
 }
-
 .navigation__list {
   font-size: 18px;
   font-weight: 400;
@@ -285,4 +297,13 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+}
+.header_left_side {
+  display: flex;
+  
+  align-items:center ;
+  img {
+    margin-left: 50px;
+  }
 }
